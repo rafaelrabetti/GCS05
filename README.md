@@ -1,3 +1,11 @@
-# GCS
+# Pokedex 1.0
 
-Neste repositório se encontram os projetos base para as atividades de GCS. Leia a descrição da atividade para saber como utiliza-los
+## Compilação
+
+Para compilar o projeto você pode utilizar o seguinte comando:
+
+```
+g++ -o pokedex sources/*.cpp -Iincludes/
+```
+
+Lembre-se de configurar o arquivo `includes/version.hpp.in` com a versão correta
